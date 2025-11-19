@@ -67,3 +67,4 @@ The server will run on `http://localhost:5000`
 
 The server uses Socket.io for real-time updates. Clients can connect and join user-specific rooms to receive notifications.
 
+

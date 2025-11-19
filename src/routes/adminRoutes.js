@@ -35,3 +35,4 @@ router.get('/notifications', authMiddleware, roleMiddleware('admin'), getAllNoti
 
 module.exports = router;
 
+

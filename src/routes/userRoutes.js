@@ -55,3 +55,4 @@ router.put('/notifications/:id/read', authMiddleware, async (req, res) => {
 
 module.exports = router;
 
+

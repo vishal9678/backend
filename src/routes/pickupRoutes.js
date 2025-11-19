@@ -20,3 +20,4 @@ router.get('/all', authMiddleware, roleMiddleware('admin'), getAllPickups);
 
 module.exports = router;
 
+
