@@ -16,7 +16,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: process.env.FRONTEND_URL || 'https://ecotech-frontend-hz25ye7zn-vishal-chauhans-projects-162083de.vercel.app/',
+    origin: process.env.FRONTEND_URL || 'https://ecopicc.netlify.app/',
     methods: ['GET', 'POST'],
   },
 });
